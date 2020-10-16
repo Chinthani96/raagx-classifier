@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin:400,500,700|Montserrat:400,500,700');
+@import 'css/bootstrap.min.css';
+
+.main_section {
+    background-image: url(img/bg-img2.jpg);
+    height: 600px;
+    position: relative;
+    z-index: 1;
+    background-position: bottom center;
+    background-size: cover;
+}
+
+.col-12 col-md{
+    position: center;
+}
+
+
+/*  -------------------------------------heading------------------------------------------ */
+.heading > h2 {
+    font-size: 80px;
+    color: #ffffff;
+    font-weight: 700;
+    position: relative;
+    z-index: 3;
+}
+
+.heading > p {
+    color: #fff;
+}
+
+.heading > h3 {
+    font-size: 332px;
+    position: absolute;
+    top: -134px;
+    font-weight: 900;
+    left: -12px;
+    z-index: -1;
+    color: #fff;
+    opacity: .2;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=10)";
+}
+
+.heading {
+    margin-bottom: 100px;
+}
+
+/* -----------------------------form-control----------------------------------------------- */
+.form-control::-webkit-input-placeholder {
+    color: #FBBFAD;
+    opacity: 1;
+}
+
+.form-control:-ms-input-placeholder {
+    color: #FBBFAD;
+    opacity: 1;
+}
+
+.form-control::-ms-input-placeholder {
+    color: #FBBFAD;
+    opacity: 1;
+}
+
+.form-control::placeholder {
+    color: #FBBFAD;
+    opacity: 1;
+}
+
+/* -------------------------------------form-area------------------------------------------ */
+.form-area .audio {
+    background: white;
+    height: 50px;
+    max-width: 260px;
+    border: none;
+    border-radius: 24px;
+    padding: 0px 15px;
+}
+
+.form-area .output {
+    background: #9E2523;
+    height: 50px;
+    color: #FBBFAD;
+    width:432px;
+    max-width: 500px;
+    border: none;
+    border-radius: 24px;
+    padding: 0px 15px;
+}
+
+.form-area .output:focus {
+    border: none;
+    outline-offset: transparent !important;
+    border-radius: 30px;
+}
+
+.form-area .submit {
+    background-color: #B21056;
+    color: #fff;
+    font-weight: 500;
+    display: inline-block;
+    border: none;
+    height: 50px;
+    min-width: 167px;
+    line-height: 46px;
+    text-align: center;
+    border-radius: 24px 24px 24px 0px;
+    margin-left: 10px;
+}
+
+.form-area .submit:hover {
+    background: #6f52e5;
+    color: #fff;
+    -webkit-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    transition-duration: 500ms;
+}
+

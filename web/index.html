@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Raga Classifier</title>
+    <link href="style.css" rel="stylesheet">
+    <script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript" src="/eel.js"></script>
+
+</head>
+
+<body>
+    <section class="main_section">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12 col-md">
+                    <div class="heading">
+                        <h2>Indian Raga Classifier</h2>
+                        <h3>RaagX</h3>
+                        <p>Find out the raga of any song you like!</p>
+                    </div>
+                    <div class="form-area">
+                        <form class="form-inline">
+                            <input type="file" id="audio" class="form-control audio" value="Open Files" placeholder="Drag Audio">
+                            <input type="button" class="submit" value="Generate Output" onclick="generateRaga()">
+                        </form>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="form-area">
+                        <form class = "form-inline">
+                            <input type="text" id="raga" class="form-control output" placeholder="Raga Output">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
