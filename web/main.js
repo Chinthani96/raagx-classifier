@@ -19,7 +19,6 @@ function generateRaga() {
 		var audio = document.getElementById("audio")
 
 		console.log("Here");
-		console.log("Here");
 		if (fileInput.files && fileInput.files[0]) {
 			console.log("There")
 			var reader = new FileReader();
@@ -55,6 +54,7 @@ function generateRaga() {
 function decodedDone(decoded) {
 
 	var typedArray = new Object(decoded.length);
+	const temp = 'temp value';
 
 	typedArray=decoded.getChannelData(0);
 	console.log("typedArray:");
