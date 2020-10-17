@@ -18,7 +18,8 @@ function generateRaga() {
 	else {
 		var audio = document.getElementById("audio")
 
-		console.log("Here")
+		console.log("Here");
+		console.log("Here");
 		if (fileInput.files && fileInput.files[0]) {
 			console.log("There")
 			var reader = new FileReader();
