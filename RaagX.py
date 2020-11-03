@@ -91,7 +91,7 @@ def generate_raga(predictions):
         raga = "Raaga Thilakkamod"
     else:
         raga = "None of the Raagas"
-    print(raga)
+    
     return raga
 
 
