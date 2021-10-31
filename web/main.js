@@ -17,6 +17,8 @@ function generateRaga() {
 	}
 	else {
 		var audio = document.getElementById("audio")
+		const mappedAudio = JSON.stringify(audio);
+		console.log('This is the mapped Audio ------->>>> ',mappedAudio);
 
 		console.log("Here");
 		if (fileInput.files && fileInput.files[0]) {
